@@ -4,3 +4,4 @@ dist
 *.config.js
 .json
 src/js/vendor
+src
