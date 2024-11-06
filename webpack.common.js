@@ -43,10 +43,10 @@ module.exports = {
           }
         ]
       },
-      // rule for textures (images)
+      // rule for assets (images)
       {
         test: /\.(jpe?g|png|tif)$/i,
-        include: path.resolve(__dirname, "src", "textures"),
+        include: path.resolve(__dirname, "src", "assets"),
         use: [
           "file-loader",
           {
